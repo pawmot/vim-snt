@@ -8,16 +8,6 @@
             1. default mode
             1. <esc> to go back to normal
             1. ZZ - save and quit :)
-        1. Command
-            1. Usually enter with :
-            1. Allows running commands, either built in or from plugins
-                1. :q - quit
-                1. :w - save
-                1. :wa - save all
-                1. :wq - save quit
-                1. :q! - quit without saving
-                1. :bn - go to next tab (*)
-                1. :bp - go to previous tab (*)
         1. Insert
             1. i - insert at cursor
             1. I - insert at the first non-whitespace char in line
@@ -29,14 +19,24 @@
             1. S - delete line and Insert
             1. C - delete to the end of line and Insert
             1. c operator (described later)
-        1. Replace
-            1. r - replace the under cursor (not really Replace mode)
-            1. R - go to Replace mode, replace multiple characters
         1. Visual
             1. v - visual selection by char with wrapping lines (mouse-like) [Visual]
             1. V - visual selection by lines [V-Line]
             1. <C-v> - visual selection with a rectangular block [V-Block]
                 1. usefull with pasting, or hitting I to go to Insert and edit multiple lines
+        1. Command
+            1. Usually enter with :
+            1. Allows running commands, either built in or from plugins
+                1. :q - quit
+                1. :w - save
+                1. :wa - save all
+                1. :wq - save quit
+                1. :q! - quit without saving
+                1. :bn - go to next tab (*)
+                1. :bp - go to previous tab (*)
+        1. Replace
+            1. r - replace the under cursor (not really Replace mode)
+            1. R - go to Replace mode, replace multiple characters
         1. A lot more (e.g. Select, Operator Pending, ...), but those 3/4 are the main ones
     1. Motions
         1. Notes, chords, melodies
