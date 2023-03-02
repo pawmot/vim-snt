@@ -60,7 +60,7 @@
             1. *, # - find word under the cursor, down/up, n/N to find next occurrence
             1. gg, G - beginning/end of file
             1. {number}G, :{number} - go to line
-            1. % when on one of ({[]}) - jump to matching bracket
+            1. % when on one of ({[<>]}) - jump to matching bracket
         1. Repetitions
             1. {number}{motion} will repeat it multiple times
                 1. 5l - move 5 chars  to the right
